@@ -1,4 +1,4 @@
-$(".stop").click(function () {
+$(document).keypress(function () {
     $(".pressDown").stop(loop);
 });
 
